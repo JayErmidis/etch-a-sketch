@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Play', sans-serif;
+            font-weight: bold;
+            
+        }
+
+     #refresh{
+        justify-self: center;
+        align-self: center;
+        position: relative;
+     }
+    
+        body {
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            padding: 5px;
+            position: relative;
+            overflow: hidden;
+            background-color: red;
+        }
+        .box-container {
+                justify-self: center;
+                align-self: center;    
+                border: 2px solid black;
+                border-radius: 5px;
+                height: 85vh;
+                width: 150vh;
+                background-color: #fff;
+                margin: 5px;
+                position: relative;
+                top: 10px;
+        }
+        .box {
+            border: 1px solid #000;
+        }
+
+        h1 {
+            justify-self: center;
+            align-self: center;
+            position: relative;
+            font-family: 'Cabin Sketch', cursive;
+            font-size: 50px;
+            color: white;
+        }
+
+        
